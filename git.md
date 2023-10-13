@@ -11,3 +11,11 @@ Then local:
 ```console
 $ git tag | xargs git tag -d
 ```
+
+### Get current branch
+
+git rev-parse --abbrev-ref HEAD
+
+### Push both commit and tag
+
+git push --atomic origin <branch name> <tag>
