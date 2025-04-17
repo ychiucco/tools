@@ -3,11 +3,9 @@
 # - Save this file as `~/bin/git-portadentro.sh`
 # - Make it executable:
 #	`chmod +x ~/bin/git-portadentro.sh`
-# - Append to PATH:
-#	`echo 'export PATH="$HOME/bin:$PATH"' >> .zshrc`
 # - ```~/.gitconfig
 #   [alias]
-#     portadentro = !git-portadentro.sh
+#     portadentro = !~/bin/git-portadentro.sh
 #   ```
 
 
